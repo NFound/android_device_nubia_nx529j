@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License")
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<device name="Android">
+    <!-- All values are in mAh except as noted -->
+    <item name="none">0</item>
+    <item name="screen.on">80</item>
+    <item name="screen.full">126</item>
+    <item name="bluetooth.active">93.5</item>
+    <item name="bluetooth.on">1</item>
+    <item name="wifi.on">0.1</item>
+    <item name="wifi.active">400</item>
+    <item name="wifi.scan">200</item>
+    <item name="dsp.audio">78</item>
+    <item name="dsp.video">58</item>
+    <item name="radio.active">159</item>
+    <item name="radio.scanning">4</item>
+    <item name="gps.on">46</item>
+    <array name="radio.on">
+        <value>3.9</value>
+        <value>2.8</value>
+    </array>
+    <array name="gpu.speeds">
+        <value>550000</value>
+        <value>500000</value>
+        <value>465000</value>
+        <value>400000</value>
+        <value>220000</value>
+    </array>
+    <array name="gpu.active">
+        <value>616</value>
+        <value>527</value>
+        <value>437</value>
+        <value>341</value>
+        <value>150</value>
+    </array>
+    <item name="cluster.num">2</item>
+    <item name="cluster0.cpunum">4</item>
+    <item name="cluster1.cpunum">4</item>
+    <item name="cpu.idle">4</item>
+    <item name="cpu.awake">9.2</item>
+    <array name="cpu.speeds">
+        <value>960000</value>
+        <value>1094400</value>
+        <value>1344000</value>
+        <value>1440000</value>
+        <value>1516800</value>
+    </array>
+    <array name="cpu.active">
+        <value>145</value>
+        <value>168</value>
+        <value>244</value>
+        <value>290</value>
+        <value>320</value>
+    </array>
+    <array name="cpu.speeds.cluster1">
+        <value>800000</value>
+        <value>9984000</value>
+        <value>1094400</value>
+        <value>1209600</value>
+    </array>
+    <array name="cpu.active.cluster1">
+        <value>90</value>
+        <value>118</value>
+        <value>150</value>
+        <value>196</value>
+    </array>
+    <item name="battery.capacity">3000</item>
+
+    <array name="wifi.batchedscan"> <!-- mA.  Current figures based on .0801 s/c and 75.48mA while scanning -->
+        <value>.0002</value> <!-- 1-8/hr -->
+        <value>.002</value>  <!-- 9-64/hr -->
+        <value>.02</value>   <!-- 65-512/hr -->
+        <value>.2</value>    <!-- 513-4,096/hr -->
+        <value>2</value>    <!-- 4097-/hr -->
+    </array>
+</device>

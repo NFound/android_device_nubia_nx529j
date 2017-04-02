@@ -1,0 +1,12 @@
+/cache          ext4        /dev/block/bootdevice/by-name/cache
+/system         ext4        /dev/block/bootdevice/by-name/system
+/data           ext4        /dev/block/bootdevice/by-name/userdata
+/boot           emmc        /dev/block/bootdevice/by-name/boot
+/recovery       emmc        /dev/block/bootdevice/by-name/recovery
+/modem          vfat        /dev/block/bootdevice/by-name/modem
+/persist        ext4        /dev/block/bootdevice/by-name/persist
+/misc           emmc        /dev/block/bootdevice/by-name/misc
+/system         emmc        /dev/block/bootdevice/by-name/system
+
+/external_sd    vfat        /dev/block/mmcblk1p1 /dev/block/mmcblk1
+/usbdisk        vfat        /dev/block/sda1 /dev/block/sda

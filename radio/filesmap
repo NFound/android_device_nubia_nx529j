@@ -1,0 +1,9 @@
+emmc_appsboot.mbn       /dev/block/bootdevice/by-name/aboot
+rpm.mbn                 /dev/block/bootdevice/by-name/rpm
+tz.mbn                  /dev/block/bootdevice/by-name/tz
+cmnlib.mbn              /dev/block/bootdevice/by-name/cmnlib
+modem.img	            /dev/block/bootdevice/by-name/modem
+hyp.mbn                 /dev/block/bootdevice/by-name/hyp
+keymaster.mbn           /dev/block/bootdevice/by-name/keymaster
+splash.img              /dev/block/bootdevice/by-name/splash
+sbl1.mbn 	/dev/block/bootdevice/by-name/sbl1
