@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "NFound/android_kernel_nubia_msm8952",
+    "target_path": "kernel/path",
+    "branch": "master"
+  },
+  {
+    "repository": "NFound/proprietary_vendor_nubia",
+    "target_path": "vendor/path",
+    "branch": "master"
+  },
+  {
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/path",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "MoKee/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-mkm",
+    "branch": "mkm"
+  }
+]
