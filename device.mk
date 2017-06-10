@@ -160,9 +160,9 @@ PRODUCT_PACKAGES += \
    FMRadio \
    libfmjni
 
-# ConfigPanel
-#PRODUCT_PACKAGES += \
-#    ConfigPanel
+# Jelly
+PRODUCT_PACKAGES += \
+   Jelly
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
@@ -276,10 +276,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.msm8952
 
-# Snapdragon Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Sound trigger
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
@@ -298,7 +294,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
 	libshim_camera \
-	libmm-omxcore
+	libmm-omxcore \
+	SnapdragonCamera
 
 PRODUCT_PACKAGES+=\
 	 libshims_ims

@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xenonhd.mk
+    $(LOCAL_DIR)/aosp_nx529j.mk

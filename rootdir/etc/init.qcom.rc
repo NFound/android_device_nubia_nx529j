@@ -898,3 +898,9 @@ service gx_fpd /system/bin/gx_fpd
     user root
     group root system
     seclabel u:r:goodix:s0
+
+service sysinit /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/init.d
+    class late_start
+    user root
+    group root
+    oneshot
