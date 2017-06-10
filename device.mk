@@ -160,10 +160,6 @@ PRODUCT_PACKAGES += \
    FMRadio \
    libfmjni
 
-# Jelly
-PRODUCT_PACKAGES += \
-   Jelly
-
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -299,24 +295,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES+=\
 	 libshims_ims
-
-# Wechat Fingerprint Payment
-#PRODUCT_PACKAGES += \
-#    ifaa_soter \
-#	ifaa_fingerprint
-
-#PRODUCT_BOOT_JARS += \
-#    ifaa_soter \
-#	ifaa_fingerprint
-
-# KeyHandler
-#PRODUCT_PACKAGES += \
- #   com.cyanogenmod.keyhandler
-
-#PRODUCT_SYSTEM_SERVER_JARS += com.cyanogenmod.keyhandler
-
-# never dexopt the keyhandler
-#$(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
